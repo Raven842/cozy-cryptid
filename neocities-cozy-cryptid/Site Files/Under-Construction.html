@@ -27,6 +27,24 @@
             text-align: center;
             /* color: rebeccapurple; */
         }
+        #niuplayer {
+                border: solid 5px black;
+                padding: 1em;
+                border-radius:20px;
+                background-image: url(https://64.media.tumblr.com/65505d1d74c501d1b880a8c1af9041b7/tumblr_ptnktg5vhO1v0460n_400.gifv);
+                background-size: contain;
+                object-position: center;
+                        }
+              
+              #niuplayer button {
+                color: crimson;
+                background-color: rebeccapurple;
+                border: solid 2.5px black;
+                padding: 1em;
+                border-radius: 20px;
+                        }
+
+
     </style>
 </head>
 <body>
@@ -38,6 +56,16 @@
     <video width="250" height="250" controls>
         <source src="https://va.media.tumblr.com/tumblr_s25lheq1xI1a9jtq7_720.mp4" type="video/mp4" id="Spin_Rec">
     </video>
+    <hidden>
+    <div id="niuplayer">
+        <div id="player" playlist="PLckJpXDRd_gOS9YMXAYHYjP4SvHiwI882" shuffle="yes"></div>
+        <button onclick="pauseplay()">play/pause</button>
+        <button onclick="player.previousVideo()">prev</button>
+        <button onclick="player.nextVideo()">next</button>
+        <script src="niumusicplayer.js">
+        </script>
+    </div>
+</hidden>
 
 </body>
 </html>
