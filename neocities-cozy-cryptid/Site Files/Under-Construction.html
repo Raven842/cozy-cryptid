@@ -14,12 +14,12 @@
         background-size: cover;
         }
        
-        video {
+        iframe {
             display: block;
             margin: 0 auto;
         }
 
-       #Spin_Rec {
+       #gify-embed{
         border: solid darkred 5px;
         }
 
@@ -28,12 +28,8 @@
             /* color: rebeccapurple; */
         }
         #niuplayer {
-                border: solid 5px black;
-                padding: 1em;
-                border-radius:20px;
-                background-image: url(https://64.media.tumblr.com/65505d1d74c501d1b880a8c1af9041b7/tumblr_ptnktg5vhO1v0460n_400.gifv);
-                background-size: contain;
-                object-position: center;
+            display: block;
+            margin: 0;
                         }
               
               #niuplayer button {
@@ -52,13 +48,15 @@
         <h1>This Website is Under construction :3</h1>
         <h3>Come back </h3>
     </div>
-    
+    <!--
     <video width="250" height="250" controls>
-        <source src="https://va.media.tumblr.com/tumblr_s25lheq1xI1a9jtq7_720.mp4" type="video/mp4" id="Spin_Rec">
+        <source src=""src="https://va.media.tumblr.com/tumblr_s25lheq1xI1a9jtq7_720.mp4" type="video/mp4" id="Spin_Rec">
     </video>
+    -->
+    <iframe src="https://giphy.com/embed/wcBVW9S9avoti" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/vinyl-wcBVW9S9avoti">via GIPHY</a></p>
     <hidden>
     <div id="niuplayer">
-        <div id="player" playlist="PLckJpXDRd_gOS9YMXAYHYjP4SvHiwI882" shuffle="yes"></div>
+        <div id="player" playlist="PLckJpXDRd_gPgrydu1ZIcW3Pms3U8EL6s" shuffle="yes"></div>
         <button onclick="pauseplay()">play/pause</button>
         <button onclick="player.previousVideo()">prev</button>
         <button onclick="player.nextVideo()">next</button>
