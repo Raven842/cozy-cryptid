@@ -6,6 +6,6 @@ mostly a personal project so a lot of the details are stored in my brain.
 
 *************************************************************************
 To Do:
-- Make underconstruction page
-- Make a js script to redirect from home page to under construction page until ready
+- <del>Make under construction page</del>
+- <del>Make a js script to redirect from home page to under construction page until ready </del>
 - Work on homepage
